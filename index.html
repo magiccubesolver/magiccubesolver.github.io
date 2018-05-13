@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="styles/base.css">
+		<link rel="stylesheet" type="text/css" href="styles/cube.css">
+
+		<title>22 Moves or Less</title>
+
+		<!-- Lundin's Cuber -->	
+		<script charset="utf-8" src="scripts/cuber.js"></script>
+
+		<!-- Lehtinen's cube.js. -->
+		<script charset="utf-8" src="scripts/cube.js"></script>
+		<script charset="utf-8" src="scripts/solve.js"></script>
+			
+		<!-- Code bridging cube.js and Cuber. -->
+		<script charset="utf-8" src="scripts/cubejs-cuber-bridge.js"></script>
+
+		<!-- implementation -->	
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script charset="utf-8" src="scripts/locked.js"></script>		
+		<script charset="utf-8" src="scripts/main.js"></script>		
+
+	</head>
+	<body>
+		<div id="container"></div>
+		<button type="button" class="btn btn-danger btn-lg" id="scramble-btn">Scramble</button>
+		<button type="button" class="btn btn-success btn-lg collapse" id="solve-btn">Solve</button>
+	</body>
+</html>
